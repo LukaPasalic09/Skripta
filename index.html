@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,6 +15,10 @@
     .naslov {
         grid-column: 1 / 4;
         text-align: center;
+    }
+    .prvalekcija {
+        font-size: 35px;
+        margin-left: 10px;
     }
     .css {
     grid-column: 1 / 4; 
@@ -50,12 +55,54 @@
         margin-top: 30px;
         border: 3px solid rgb(4, 0, 255);
     }
+    .pocetakdva {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .drugalekcija {
+        font-size: 35px;
+        margin-left: 10px;
+        margin-top: 150px;
+    }
+    .boxmodel {
+        grid-column: 1 / 5;
+        text-align: center;
+        font-size: 25px;
+    }
+    .boxmodel p {
+        display: inline-block;
+        border: 2px solid black;
+        padding: 15px;
+    }
+    .content {
+        grid-column: 1;
+        text-align: center;
+        font-size: 22px;
+    }
+    .padding {
+        grid-column: 2;
+        text-align: center;
+        font-size: 22px;
+    }
+    .border {
+        grid-column: 3;
+        text-align: center;
+        font-size: 22px;
+    }
+    .margin {
+        grid-column: 4;
+        text-align: center;
+        font-size: 22px;
+    }
 </style>
 <body>
     <div class="pocetak">
         <div class="naslov">
             <h1>Biljeske s predavanja</h1>
             <hr>
+        </div>
+        <div class="prvalekcija">
+            <p>1. Lekcija</p>
         </div>
         <div class="css">
             <p>CSS (Cascading Style Sheets) je jezik koji se koristi za oblikovanje web stranica.
@@ -74,5 +121,26 @@
             <code>&lt;link rel="stylesheet" href="stil.css"&gt;</code>
         </div>
     </div>
+    <div class="pocetakdva">
+            <div class="drugalekcija">
+            <p>2. Lekcija</p>
+        </div>
+        <div class="boxmodel">
+            <p>CSS box model je osnovni koncept u CSS-u koji opisuje kako se elementi prikazuju i kako zauzimaju prostor na stranici. <br>Svaki HTML element se smatra pravokutnom kutijom (boxom) koji se sastoji od 4 glavna dela:</p>
+        </div>
+        <div class="content">
+            <p>Content (sadržaj) – prostor gdje se nalazi tekst, slika ili drugi sadržaj elementa.</p>
+        </div>
+        <div class="padding">
+            <p>Padding – prostor između sadržaja i ivice (bordera) elementa. "Gura" sadržaj ka unutra.</p>
+        </div>
+        <div class="border">
+            <p>Border – linija koja okružuje padding i sadržaj.</p>
+        </div>
+        <div class="margin">
+            <p>Margin – prostor izvan border-a, tj. razmak između ovog elementa i drugih elemenata oko njega.Margin – prostor izvan border-a, tj. razmak između ovog elementa i drugih elemenata oko njega.</p>
+        </div>
+    </div>
 </body>
 </html>
+
