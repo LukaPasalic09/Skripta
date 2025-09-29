@@ -5,96 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<style>
-    .pocetak {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        column-gap: 25px;
-    }
-    .naslov {
-        grid-column: 1 / 4;
-        text-align: center;
-    }
-    .prvalekcija {
-        font-size: 35px;
-        margin-left: 10px;
-    }
-    .css {
-    grid-column: 1 / 4; 
-    text-align: center;
-    font-size: 25px;
-    }
-
-    .css p {
-    display: inline-block;
-    border: 2px solid black;
-    padding: 10px;
-    background-color: white;
-    }
-    .inline {
-        grid-column: 1;
-        text-align: center;
-        font-size: 22px;
-        margin-top: 30px;
-        border: 3px solid rgb(255, 0, 0);
-    }
-        .internal {
-        grid-column: 2;
-        text-align: center;
-        justify-content: center;
-        font-size: 22px;
-        margin-top: 30px;
-        border: 3px solid rgb(21, 255, 0);
-    }
-    .external{
-        grid-column: 3;
-        text-align: center;
-        justify-content: center;
-        font-size: 22px;
-        margin-top: 30px;
-        border: 3px solid rgb(4, 0, 255);
-    }
-    .pocetakdva {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
-    .drugalekcija {
-        font-size: 35px;
-        margin-left: 10px;
-        margin-top: 150px;
-    }
-    .boxmodel {
-        grid-column: 1 / 5;
-        text-align: center;
-        font-size: 25px;
-    }
-    .boxmodel p {
-        display: inline-block;
-        border: 2px solid black;
-        padding: 15px;
-    }
-    .content {
-        grid-column: 1;
-        text-align: center;
-        font-size: 22px;
-    }
-    .padding {
-        grid-column: 2;
-        text-align: center;
-        font-size: 22px;
-    }
-    .border {
-        grid-column: 3;
-        text-align: center;
-        font-size: 22px;
-    }
-    .margin {
-        grid-column: 4;
-        text-align: center;
-        font-size: 22px;
-    }
-</style>
 <body>
     <div class="pocetak">
         <div class="naslov">
@@ -141,6 +53,15 @@
             <p>Margin – prostor izvan border-a, tj. razmak između ovog elementa i drugih elemenata oko njega.</p>
         </div>
     </div>
+    <h1>3.Lekcija</h1>
+    <h2 class="h_1">Opacity</h2>
+      <article class="article_01">
+        <h2 class="h_2">Transparent boxes with opacity</h2>
+        <p><code class="csscode">.trans01 { opacity: 0.5; }</code></p>
+      </article>
+      <article class="article_02">
+        <h2 class="h_2">Transparent boxes with rgba()</h2>
+        <p><code class="csscode">.trans02 { background-color: rgba(255, 255, 255, 0.5); }</code></p>
 </body>
 </html>
 

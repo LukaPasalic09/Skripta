@@ -1,0 +1,125 @@
+.pocetak {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 25px;
+}
+.naslov {
+    grid-column: 1 / 4;
+    text-align: center;
+}
+.prvalekcija {
+    font-size: 35px;
+    margin-left: 10px;
+}
+.css {
+grid-column: 1 / 4; 
+text-align: center;
+font-size: 25px;
+}
+
+.css p {
+display: inline-block;
+border: 2px solid black;
+padding: 10px;
+background-color: white;
+}
+.inline {
+    grid-column: 1;
+    text-align: center;
+    font-size: 22px;
+    margin-top: 30px;
+    border: 3px solid rgb(255, 0, 0);
+}
+    .internal {
+    grid-column: 2;
+    text-align: center;
+    justify-content: center;
+    font-size: 22px;
+    margin-top: 30px;
+    border: 3px solid rgb(21, 255, 0);
+}
+.external{
+    grid-column: 3;
+    text-align: center;
+    justify-content: center;
+    font-size: 22px;
+    margin-top: 30px;
+    border: 3px solid rgb(4, 0, 255);
+}
+.pocetakdva {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.drugalekcija {
+    font-size: 35px;
+    margin-left: 10px;
+    margin-top: 150px;
+}
+.boxmodel {
+    grid-column: 1 / 5;
+    text-align: center;
+    font-size: 25px;
+}
+.boxmodel p {
+    display: inline-block;
+    border: 2px solid black;
+    padding: 15px;
+}
+.content {
+    grid-column: 1;
+    text-align: center;
+    font-size: 22px;
+}
+.padding {
+    grid-column: 2;
+    text-align: center;
+    font-size: 22px;
+}
+.border {
+    grid-column: 3;
+    text-align: center;
+    font-size: 22px;
+}
+.margin {
+    grid-column: 4;
+    text-align: center;
+    font-size: 22px;
+}
+html {
+height: 100%;
+background-image: url(pattern.png);
+/*background-size: 100% 100%;
+background-repeat: no-repeat;*/
+border: black 1px solid;
+}
+
+.article_01 {
+width: 90%;
+padding: 10px;
+background-color: white;
+border: black 1px dotted;
+opacity: 0.5;
+}
+
+.article_02 {
+width: 90%;
+padding: 10px;
+background-color: white;
+border: black 1px dotted;
+background-color: rgba(255, 255, 255, 0.5);
+opacity: 0.9;
+}
+
+.csscode {
+font-weight: bolder;
+background: lightgrey;
+}
+
+.h_2 {
+background: gold;
+}
+
+.h_1 {
+color: green;
+width: 90%;
+}
